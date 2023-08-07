@@ -1,4 +1,4 @@
-// while loop example
+// while loop example . we will declear variable outside the while loop
 
 let num = 10;
 // let total = 0;
