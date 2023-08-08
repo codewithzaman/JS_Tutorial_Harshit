@@ -8,7 +8,7 @@
 // ){
 //     console.log(i); 
 // }
-// console.log("Value of is is ",i);// there will error outside the for loop if we use let
+// console.log("Value of i is ",i);// there will error outside the for loop if we use let
 for(
     var i = 0;
     i<=9;
