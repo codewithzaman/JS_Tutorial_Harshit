@@ -1,4 +1,5 @@
 // array destructuring
+
 // const myArray = ["value1","value2","value3"];
 const myArray = ["value1","value2","value3","value4"];
 // let myNewArray = myArray.slice(2);
