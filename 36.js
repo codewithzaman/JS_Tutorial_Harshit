@@ -10,10 +10,12 @@ const person = {
     age :34,
     hobbies:["reading","cooking","sleeping"]
 }
-console.log(person);
+// console.log(person);
 // how to access data from objects
 // console.log(typeof person);
 // console.log(person.name);
 // console.log(person.age);
-console.log(person.hobbies);
+// console.log(person.hobbies);
 // how to add key value pair to objects
+person.gender = "male";
+console.log(person);
