@@ -29,8 +29,12 @@ const obj2 ={
     key4 : "value4",
  }
 // const newObj = {...obj1,...obj2}
-const newObj = {...obj2,...obj1, key5:"value5"}
+// const newObj = {...obj2,...obj1, key5:"value5"}
 
 // console.log(obj1);
-console.log(newObj);
+// const newObject = {..."abcdef"};
+// const newObject = {...["item1","item2"]};
+const newObject = {..."abcdefghijklmnopqrstuvwxyz"}
+
+console.log(newObject);
 
