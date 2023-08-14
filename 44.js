@@ -66,7 +66,22 @@
 // function
 // input : string
 // output : firstcharacter
-function firstchar(anystring){
-    return anystring[0];
+// function firstchar(anystring){
+//     return anystring[0];
+// }
+// console.log(firstchar("xerox"));
+
+// function 
+// input : array, target (number)
+// output : index of target if target present in array
+function findTarget(array,target){
+    for(let i=0 ; i<array.length; i++){
+        if(array[i]===target){
+            return i;
+        }
+        return -1;
+    }
 }
-console.log(firstchar("xerox"));
+const myArray = [34,4,43,55]
+const ans = findTarget(myArray,43);
+console.log(ans);
