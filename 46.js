@@ -10,7 +10,7 @@ let towPlusFour = ()=> {
 }
 towPlusFour;
 
-const isEven =(number) =>{
+const isEven =number =>{  // if a single parameters u can remove brackets
 if(number%2===0){
    return true;
 }else{
@@ -19,11 +19,8 @@ if(number%2===0){
  }
  isEven;
 
- const firstchar =(anystring) => {
-       return anystring[0];
-     }
-
-     firstchar;
+ const firstchar = anystring => anystring[0];
+    firstchar (); // If there is single parameter u can also remove curly and small brackets
 
 let findTarget = (array,target)=> {
     for(let i=0 ; i<array.length; i++){
