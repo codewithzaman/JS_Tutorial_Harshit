@@ -83,5 +83,5 @@ function findTarget(array,target){
     }
 }
 const myArray = [34,4,43,55]
-const ans = findTarget(myArray,43);
+const ans = findTarget(myArray,55);
 console.log(ans);
