@@ -13,7 +13,10 @@
 // const hello = function (){ // this will give an error due to function expression
 //     console.log("Hello World");
 // }
-hello();
-const hello = ()=>{ // this will give an error due to function expression
-    console.log("Hello World");
-}
+// hello();
+// const hello = ()=>{ // this will give an error due to function expression
+//     console.log("Hello World");
+// }
+console.log(hello);
+let hello = "Hello Wrold";
+// console.log(hello);
