@@ -1,5 +1,5 @@
 // Function is a reusable code to do a task multiple times
-
+// Function Decleration 
 // function birthDaySong(){
 //     console.log("Happy BirthDay To You");
 // }
