@@ -65,16 +65,16 @@
     //     console.log(fName);
     // }
     // myApp();
-    function myApp(){
-        if(true){
-            var fName = "Harshit";
-            console.log(fName);
-        }
-        if(true){
-            console.log(fName);
-        }
-        console.log(fName);
-    }
-    myApp();
+    // function myApp(){
+    //     if(true){
+    //         var fName = "Harshit";
+    //         console.log(fName);
+    //     }
+    //     if(true){
+    //         console.log(fName);
+    //     }
+    //     console.log(fName);
+    // }
+    // myApp();
 
 
