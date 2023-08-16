@@ -51,8 +51,30 @@
     // }
     // console.log(firstName); //this will give error as let is used which is block scoped
     
-    if(true){
-      var firstName = "Nader"; // this will pring firstname on console as Var is used which is goble scoped
-        console.log(firstName);
+    // if(true){
+    //   var firstName = "Nader"; // this will pring firstname on console as Var is used which is goble scoped
+    //     console.log(firstName);
+    // }
+    // console.log(firstName);
+    // let fName = "garima"
+    // function myApp(){
+    //     if(true){
+    //         let fName = "Harshit";
+    //         console.log(fName);
+    //     }
+    //     console.log(fName);
+    // }
+    // myApp();
+    function myApp(){
+        if(true){
+            var fName = "Harshit";
+            console.log(fName);
+        }
+        if(true){
+            console.log(fName);
+        }
+        console.log(fName);
     }
-    console.log(firstName);
+    myApp();
+
+
