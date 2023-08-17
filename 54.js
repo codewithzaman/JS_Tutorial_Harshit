@@ -1,4 +1,4 @@
-// CallBack Functions
+// CallBack Functions // higher Order Function
 
 // 
 function myFunc(callBack){

@@ -1,4 +1,4 @@
-// Function returning function
+// Function returning function // Higher Order Function
 
 // function myFunc(){
 //     return "a";
@@ -30,10 +30,15 @@
 
 function myFunc(){
     function hello(){
-        
+        // console.log("Hello World");
+        return "Hello world"
+
     }
-    return 344;
+    return hello;
 
 }
 const ans = myFunc();
-console.log(ans);
+// console.log(ans);
+console.log(ans());
+// const ans2 = ans();
+// console.log(ans2);
