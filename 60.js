@@ -88,5 +88,20 @@
 // 5,9,1200,400,3000
 // 5,9,400,1200,3000 (Expected)
 const numbers = [5,9,1200,400,3000];
+//["5","9","1200","400","3000"];
+//[53,57,49,52,51] //ASCI values of above array
+
+
+// Js will sort this rray as a string not as a number . To sort a string we use ASCI Code. JS will pick only first character of the string and see the ASCI code of the 1st Character as in 1200 js will see only ASCI code of 1 it will leave the remaining 120. 
+// '0':48
+// '1': 49
+// '2': 50
+// '3' : 51
+// '4' : 52
+// '5' : 53
+// '6' : 54
+// '7' : 55
+// '8' : 56
+// '9' : 57
 numbers.sort();
 console.log(numbers);
