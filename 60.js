@@ -105,3 +105,7 @@ const numbers = [5,9,1200,400,3000];
 // '9' : 57
 numbers.sort();
 console.log(numbers);
+
+const userNames = ["Saber","Babar","Nader","Haider"];
+userNames.sort();
+console.log(userNames);
