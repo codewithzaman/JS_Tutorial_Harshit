@@ -87,7 +87,7 @@
 
 // 5,9,1200,400,3000
 // 5,9,400,1200,3000 (Expected)
-const numbers = [5,9,1200,400,3000];
+// const numbers = [5,9,1200,400,3000];
 //["5","9","1200","400","3000"];
 //[53,57,49,52,51] //ASCI values of above array
 
@@ -103,9 +103,26 @@ const numbers = [5,9,1200,400,3000];
 // '7' : 55
 // '8' : 56
 // '9' : 57
-numbers.sort();
-console.log(numbers);
+// numbers.sort();
+// console.log(numbers);
 
-const userNames = ["Saber","Babar","Nader","Haider"];
-userNames.sort();
-console.log(userNames);
+// const userNames = ["Saber","Babar","abcd","Nader","Haider","aabc"]; // first capital letters sorting will be done then small letters
+// userNames.sort();
+// console.log(userNames);
+const numbers = [5,9,1200,400,3000]; // using call back functions in sor method
+//  numbers.sort((a,b)=>{
+//     return a-b ;
+//  })
+numbers.sort((a,b)=>a-b);
+    console.log(numbers);
+ 
+
+
+
+
+
+
+
+
+
+ 
