@@ -113,8 +113,19 @@ const numbers = [5,9,1200,400,3000]; // using call back functions in sor method
 //  numbers.sort((a,b)=>{
 //     return a-b ;
 //  })
-numbers.sort((a,b)=>a-b);
-    console.log(numbers);
+// numbers.sort((a,b)=>a-b);
+    // console.log(numbers);
+    // 1200,410
+    // a-b ===> 1200-410 = 790
+    // a-b ===> positive (greater then zero)
+    // 410 , 1200
+    // a-b ===> negative ==> a,b
+    // 5,9 =>> -4 
+
+numbers.sort((a,b)=>{
+    return b-a ;
+ })
+ console.log(numbers);
  
 
 
